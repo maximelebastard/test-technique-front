@@ -29,9 +29,6 @@ __Les mêmes exercices que le Junior__
 
 __Utilisation obligatoire de Redux__
 
-__Creation d'un compte utilisateur__:<br/>
-Un utilisateur peut créer son propre compte.
-
 __Creation d'une liste de film à voir__:<br/>
 Un utilisateur peut se créer une liste de film à voir. 
 
