@@ -11,7 +11,7 @@ Votre rendu final devra comprendre :
 # Si vous postulez pour le poste de dev Junior:
 
 __Affichage des derniers films__:<br/>
-Un utilisateur peut voir les derniers films sur la page d'acceuil.
+Un utilisateur peut voir les derniers films sur la page d'accueil.
 
 __Affichage dans des films dans l'ordre__:<br/>
 Un utilisateur peut afficher les films par leur ordre de sortie. 
