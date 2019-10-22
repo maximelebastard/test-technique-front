@@ -20,7 +20,7 @@ __Affichage d'un film sur une autre page__:<br/>
 Un utilisateur peut alors voir tout les détails d'un film.
 
 __Affichage les suggestions d'un film__:<br/>
-Une fois sur la page de détails d'un film, un utilisateur peut voir les suggestions en rapport avec ce film.
+Une fois sur la page de détails, un utilisateur peut voir les suggestions alternative en rapport avec ce film.
 
 
 # Si vous postulez pour le poste de dev Senior: 
