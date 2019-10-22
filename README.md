@@ -20,7 +20,7 @@ __Affichage d'un film sur une autre page__:<br/>
 Un utilisateur peut cliquer sur n'importe quel film pour accéder à sa propre page.
 
 __Affichage des infos d'un film__:<br/>
-Un utilisateur peut alors tout voir sur les cotes du film et sur les acteurs présents sur chaque page de film.
+Un utilisateur peut alors voir tout les détails d'un film.
 
 # Si vous postulez pour le poste de dev Senior: 
 
