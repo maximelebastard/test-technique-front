@@ -17,10 +17,11 @@ __Affichage dans des films dans l'ordre__:<br/>
 Un utilisateur peut afficher les films par leur ordre de sortie. 
 
 __Affichage d'un film sur une autre page__:<br/>
-Un utilisateur peut cliquer sur n'importe quel film pour accéder à sa propre page.
-
-__Affichage des infos d'un film__:<br/>
 Un utilisateur peut alors voir tout les détails d'un film.
+
+__Affichage les suggestions d'un film__:<br/>
+Une fois sur la page de détails d'un film, un utilisateur peut voir les suggestions en rapport avec ce film.
+
 
 # Si vous postulez pour le poste de dev Senior: 
 
