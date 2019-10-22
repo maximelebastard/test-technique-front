@@ -10,36 +10,29 @@ Votre rendu final devra comprendre :
 
 # Si vous postulez pour le poste de dev Junior:
 
-__Affichage des derniers films__:
-
+__Affichage des derniers films__:<br/>
 Un utilisateur peut voir les derniers films sur la page d'acceuil.
 
-__Affichage dans des films dans l'ordre__:
-
+__Affichage dans des films dans l'ordre__:<br/>
 Un utilisateur peut voir afficher par leur ordre de sortie. 
 
-__Affichage d'un film sur une autre page__:
-
+__Affichage d'un film sur une autre page__:<br/>
 Un utilisateur peut cliquer sur n'importe quel film pour accéder à sa propre page.
 
-__Affichage des infos d'un film__:
-
+__Affichage des infos d'un film__:<br/>
 Un utilisateur peut alors tout voir sur les cotes du film et sur les acteurs présents sur chaque page de film.
 
 # Si vous postulez pour le poste de dev Senior: 
 
 __Les mêmes exercices que le Junior__
 
-__Creation d'un compte utilisateur__:
-
+__Creation d'un compte utilisateur__:<br/>
 Un utilisateur peut créer son propre compte.
 
-__Creation d'une liste de film à voir__:
-
+__Creation d'une liste de film à voir__:<br/>
 Un utilisateur peut se créer une liste de film à voir. 
 
-__Ajout d'un système de rating__:
-
+__Ajout d'un système de rating__:<br/>
 Un utilisateur peut ajouter une note sur chaque film.
 
 Bon courage ! 
