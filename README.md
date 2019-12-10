@@ -13,13 +13,13 @@ Votre rendu final devra comprendre :
 __Affichage des derniers films__:<br/>
 Un utilisateur peut voir les derniers films sur la page d'accueil.
 
-__Affichage dans des films dans l'ordre__:<br/>
+__Affichage des films dans l'ordre__:<br/>
 Un utilisateur peut afficher les films par leur ordre de sortie. 
 
 __Affichage d'un film sur une autre page__:<br/>
 Un utilisateur peut alors voir tout les détails d'un film(vous êtes libre d'afficher le nombre d'informations que vous voulez).
 
-__Affichage les suggestions d'un film__:<br/>
+__Afficher les suggestions d'un film__:<br/>
 Une fois sur la page de détails, un utilisateur peut voir les suggestions alternative en rapport avec ce film.
 
 
