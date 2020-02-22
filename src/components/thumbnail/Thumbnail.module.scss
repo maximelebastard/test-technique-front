@@ -1,0 +1,55 @@
+@import "../../variables";
+
+.MovieItem {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.poster {
+  display: block;
+  width: 190px;
+  height: 282px;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 1rem;
+  box-shadow: 0px 0.6rem 1rem rgba(0, 0, 0, 0.6);
+  transition: all $ease-out-cubic 0.2s;
+  background-image: url("./poster-placeholder.jpg");
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+  max-width: 190px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.directors,
+.rating {
+  font-size: 0.85rem;
+}
+
+.title,
+.directors,
+.rating {
+  color: $lighter;
+  line-height: 140%;
+  transition: opacity $ease-out-cubic 0.2s;
+}
+
+.selected {
+  .poster {
+    box-shadow: 0px 0.8rem 10rem rgba(0, 0, 0, 1);
+    transform: translate3d(0, 3px, 0) scale3d(1.2, 1.2, 1);
+  }
+
+  .title,
+  .directors,
+  .rating {
+    opacity: 0;
+  }
+}
