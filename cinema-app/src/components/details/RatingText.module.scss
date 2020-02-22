@@ -1,0 +1,23 @@
+@import "../../variables";
+
+.RatingText {
+  line-height: 2.1;
+  color: $gold;
+  fill: $gold;
+}
+
+.label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.star {
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 3px;
+}
+
+.text {
+  padding: 0 0.3rem;
+}

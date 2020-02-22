@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches the snapshot when fetching movies 1`] = `
+<Grid
+  initializing={false}
+  movies={
+    Array [
+      Object {
+        "id": "first_movie",
+        "poster": "/some_image.jpg",
+        "title": "A First Movie",
+      },
+      Object {
+        "id": "second_movie",
+        "poster": "/some_other_image.jpg",
+        "title": "A Second Movie",
+      },
+    ]
+  }
+  moviesFetching={true}
+  onNextPage={[Function]}
+/>
+`;
+
+exports[`matches the snapshot when initializing 1`] = `
+<Grid
+  initializing={true}
+  movies={
+    Array [
+      Object {
+        "id": "first_movie",
+        "poster": "/some_image.jpg",
+        "title": "A First Movie",
+      },
+      Object {
+        "id": "second_movie",
+        "poster": "/some_other_image.jpg",
+        "title": "A Second Movie",
+      },
+    ]
+  }
+  moviesFetching={false}
+  onNextPage={[Function]}
+/>
+`;
+
+exports[`matches the snapshot when initializing 2`] = `
+<Grid
+  initializing={false}
+  movies={
+    Array [
+      Object {
+        "id": "first_movie",
+        "poster": "/some_image.jpg",
+        "title": "A First Movie",
+      },
+      Object {
+        "id": "second_movie",
+        "poster": "/some_other_image.jpg",
+        "title": "A Second Movie",
+      },
+    ]
+  }
+  moviesFetching={false}
+  onNextPage={[Function]}
+/>
+`;

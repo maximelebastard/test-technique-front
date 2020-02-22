@@ -1,0 +1,65 @@
+$ease-out-cubic: cubic-bezier(0.215, 0.61, 0.355, 1);
+@import "../../variables";
+
+.Details {
+  flex-basis: 100%;
+  display: flex;
+  position: absolute;
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  left: 0;
+  right: 0;
+  background: $darker;
+  animation: fadeIn 0.4s forwards 1, slideDown 0.4s 1;
+}
+
+.tabList {
+  padding: 0;
+  margin-bottom: 2rem;
+
+  li {
+    position: relative;
+    display: inline-block;
+    padding: 1rem 3rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .tabSelected::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 1rem;
+    right: 1rem;
+    height: 3px;
+    border-radius: 3px;
+    background: linear-gradient(90deg, $primary, $secondary);
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  0% {
+  }
+  1% {
+    max-height: 0px;
+    overflow: hidden;
+  }
+  99% {
+    max-height: 500px;
+  }
+  100% {
+    overflow: visible;
+  }
+}
