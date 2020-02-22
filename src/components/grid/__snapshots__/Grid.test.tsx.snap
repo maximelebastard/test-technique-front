@@ -18,7 +18,7 @@ exports[`matches the snapshot when fetching movies 1`] = `
     ]
   }
   moviesFetching={true}
-  onNextPage={[Function]}
+  onNextPage={[MockFunction]}
 />
 `;
 
@@ -40,7 +40,7 @@ exports[`matches the snapshot when initializing 1`] = `
     ]
   }
   moviesFetching={false}
-  onNextPage={[Function]}
+  onNextPage={[MockFunction]}
 />
 `;
 
@@ -62,6 +62,6 @@ exports[`matches the snapshot when initializing 2`] = `
     ]
   }
   moviesFetching={false}
-  onNextPage={[Function]}
+  onNextPage={[MockFunction]}
 />
 `;
