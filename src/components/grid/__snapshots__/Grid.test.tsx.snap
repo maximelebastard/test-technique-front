@@ -1,5 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`matches the snapshot when fetching movies 1`] = `"A First MovieA Second MovieLoading...Loading...Loading...Loading...Loading..."`;
-
-exports[`matches the snapshot when initializing 1`] = `"Loading...Loading...Loading...Loading...Loading..."`;
