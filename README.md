@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/maximelebastard/test-technique-front.svg?branch=master)](https://travis-ci.org/maximelebastard/test-technique-front)
+
 # MovieStar
 
 MovieStar is a simple app to get an overview of the movies world.
