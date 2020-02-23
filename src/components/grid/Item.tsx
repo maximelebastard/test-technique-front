@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import styles from "./Grid.module.scss";
-import Thumbnail from "../thumbnail/Thumbnail.connected";
+import Thumbnail from "../thumbnail/Thumbnail";
 import Details from "../details/Details";
 import { Movie } from "domain/types";
 
@@ -30,7 +30,9 @@ const GridItem: React.FC<GridItemProps> = (props: GridItemProps) => {
   return (
     <li className={styles.item} ref={itemRef}>
       <Thumbnail
-        movie={movie}
+        title={movie.title}
+        selected={showDetails}
+        posterUrl={movie.poster}
         onClick={() => onMovieSelected(showDetails ? undefined : movie.id)}
       />
       {showDetails && (

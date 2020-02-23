@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow } from "enzyme";
+import { shallow, render } from "enzyme";
 import Header from "./Header";
 
 it("renders without crashing", () => {
@@ -7,5 +7,5 @@ it("renders without crashing", () => {
 });
 
 it("matches the snapshot", () => {
-  expect(<Header />).toMatchSnapshot();
+  expect(render(<Header />).text()).toMatchSnapshot();
 });
