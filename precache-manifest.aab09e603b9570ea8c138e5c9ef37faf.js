@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8be665f6d246c215b1d047756698003f",
+    "revision": "7d6d3e6a820d87edea016d47c0c1a13c",
     "url": "/test-technique-front/index.html"
   },
   {
-    "revision": "b15ac9f4e4a6d1d971a7",
+    "revision": "96e2e755c54e8d439442",
     "url": "/test-technique-front/static/css/main.1fada910.chunk.css"
   },
   {
-    "revision": "3639c284edeeda1c37e9",
-    "url": "/test-technique-front/static/js/2.34fc2767.chunk.js"
+    "revision": "0a34d1d8eefb405c3fef",
+    "url": "/test-technique-front/static/js/2.0a541062.chunk.js"
   },
   {
     "revision": "bf23039b4e70a07c5aeb1b4010df3572",
-    "url": "/test-technique-front/static/js/2.34fc2767.chunk.js.LICENSE.txt"
+    "url": "/test-technique-front/static/js/2.0a541062.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b15ac9f4e4a6d1d971a7",
-    "url": "/test-technique-front/static/js/main.d0ec29ad.chunk.js"
+    "revision": "96e2e755c54e8d439442",
+    "url": "/test-technique-front/static/js/main.d9fcc30b.chunk.js"
   },
   {
     "revision": "27d2a88523ac95a0d64d",
