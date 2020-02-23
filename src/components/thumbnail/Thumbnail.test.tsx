@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow } from "enzyme";
+import { shallow, render } from "enzyme";
 import Thumbnail from "./Thumbnail";
 
 it("renders without crashing", () => {
@@ -14,10 +14,12 @@ it("renders without crashing", () => {
 
 it("matches the snapshot", () => {
   expect(
-    <Thumbnail
-      selected={true}
-      title={"Back to the Future"}
-      posterUrl="http://some.url/bttf.jpg"
-    />
+    render(
+      <Thumbnail
+        selected={true}
+        title={"Back to the Future"}
+        posterUrl="http://some.url/bttf.jpg"
+      />
+    ).text()
   ).toMatchSnapshot();
 });

@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow } from "enzyme";
+import { shallow, render } from "enzyme";
 import Filter from "./Filter";
 
 it("renders without crashing", () => {
@@ -8,6 +8,6 @@ it("renders without crashing", () => {
 
 it("matches the snapshot", () => {
   expect(
-    <Filter selected={"watchlist"} onChange={filter => filter} />
+    render(<Filter selected={"watchlist"} onChange={filter => filter} />).text()
   ).toMatchSnapshot();
 });

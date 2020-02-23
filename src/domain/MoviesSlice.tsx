@@ -1,5 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { TheMovieDbConfig, Movie, Paginated, Filter } from "./types";
+import posterPlaceholder from "../poster-placeholder.jpg";
 
 /**
  * Slice related to the movies data
@@ -56,12 +57,24 @@ export const slice = createSlice({
     },
     fetchMoviesSuccess: (state, action: PayloadAction<PFetchMoviesSuccess>) => {
       const { movies: stateMovies, page, totalPages } = action.payload;
+      let posterBaseUrl: string;
+      if (state.theMovieDbConfig) {
+        posterBaseUrl = state.theMovieDbConfig.posterBaseUrl;
+      }
       state.areMoviesFetching = false;
       state.totalPages = totalPages;
       const movies = stateMovies.reduce<{ [id: string]: Paginated<Movie> }>(
         (accumulator, movie, currentIndex) => ({
           ...accumulator,
-          [movie.id]: { ...movie, page, indexInPage: currentIndex }
+          [movie.id]: {
+            ...movie,
+            poster:
+              posterBaseUrl && movie.poster
+                ? `${posterBaseUrl}${movie.poster}`
+                : posterPlaceholder,
+            page,
+            indexInPage: currentIndex
+          }
         }),
         {}
       );

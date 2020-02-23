@@ -1,5 +1,5 @@
 import React from "react";
-import { shallow } from "enzyme";
+import { shallow, render } from "enzyme";
 import Grid from "./Grid";
 import { Movie } from "domain/types";
 
@@ -25,33 +25,26 @@ it("renders without crashing", () => {
 
 it("matches the snapshot when initializing", () => {
   expect(
-    <Grid
-      initializing={true}
-      moviesFetching={false}
-      onNextPage={jest.fn()}
-      movies={movies}
-    />
+    render(
+      <Grid
+        initializing={true}
+        moviesFetching={false}
+        onNextPage={jest.fn()}
+        movies={movies}
+      />
+    ).text()
   ).toMatchSnapshot();
 });
 
 it("matches the snapshot when fetching movies", () => {
   expect(
-    <Grid
-      initializing={false}
-      moviesFetching={true}
-      onNextPage={jest.fn()}
-      movies={movies}
-    />
-  ).toMatchSnapshot();
-});
-
-it("matches the snapshot when initializing", () => {
-  expect(
-    <Grid
-      initializing={false}
-      moviesFetching={false}
-      onNextPage={jest.fn()}
-      movies={movies}
-    />
+    render(
+      <Grid
+        initializing={false}
+        moviesFetching={true}
+        onNextPage={jest.fn()}
+        movies={movies}
+      />
+    ).text()
   ).toMatchSnapshot();
 });

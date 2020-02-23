@@ -1,3 +1,3 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`matches the snapshot 1`] = `<Header />`;
+exports[`matches the snapshot 1`] = `"MovieStar"`;
