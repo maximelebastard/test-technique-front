@@ -8,6 +8,8 @@ It has been done as a React test for [CookAngels](https://github.com/cookangels)
 
 ![MovieStar](/readme-assets/welcome.png)
 
+[Try it here](https://maximelebastard.github.io/test-technique-front)
+
 It uses [TheMovieDb API](developers.themoviedb.org) for his data.
 
 > This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) using [cra-template-typekit](https://github.com/rrebase/cra-template-typekit)
