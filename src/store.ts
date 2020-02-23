@@ -1,7 +1,7 @@
 import { configureStore, combineReducers } from "@reduxjs/toolkit";
 import createSagaMiddleware from "redux-saga";
 import { connectRouter, routerMiddleware } from "connected-react-router";
-import { createBrowserHistory } from "history";
+import { createHashHistory } from "history";
 import moviesReducer from "./domain/MoviesSlice";
 import moviesDetailsReducer from "./domain/MoviesDetailsSlice";
 import userReducer from "./domain/UserSlice";
@@ -12,7 +12,7 @@ import userSaga from "./domain/UserSaga";
 
 const sagaMiddleware = createSagaMiddleware();
 
-export const history = createBrowserHistory();
+export const history = createHashHistory();
 
 export const rootReducer = combineReducers({
   router: connectRouter(history),
